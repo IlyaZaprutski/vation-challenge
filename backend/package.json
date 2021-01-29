@@ -1,0 +1,13 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "VATION",
+  "private": true,
+  "scripts": {
+    "start": "json-server --host 0.0.0.0 --port 3000 db.json"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
