@@ -1,0 +1,14 @@
+FROM node:10
+
+WORKDIR /app
+
+
+ARG PORT
+ARG REACT_APP_API_URL
+
+ENV PORT=$PORT
+ENV REACT_APP_API_URL=$REACT_APP_API_URL
+
+CMD /bin/bash -c "yarn && yarn start"
+
+EXPOSE 3001

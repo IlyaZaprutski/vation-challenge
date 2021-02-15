@@ -28,3 +28,8 @@ frontend/yarn-error.log*
 backend/npm-debug.log*
 backend/yarn-debug.log*
 backend/yarn-error.log*
+
+.data/**
+
+**/.eslintcache
+

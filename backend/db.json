@@ -1,9 +1,33 @@
 {
   "users": [
-    { "id": 1, "name": "Dolores R. Farley"},
-    { "id": 2, "name": "Amanda J. Grabowski R. Farley"},
-    { "id": 3, "name": "Valerie W. Lovejoy"},
-    { "id": 4, "name": "Maria M. Dublin"},
-    { "id": 5, "name": "Jack G. Laster"}
+    { "id": 1, "name": "Dolores R. Farley" },
+    { "id": 2, "name": "Amanda J. Grabowski R. Farley" },
+    { "id": 3, "name": "Valerie W. Lovejoy" },
+    { "id": 4, "name": "Maria M. Dublin" },
+    { "id": 5, "name": "Jack G. Laster" }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "title": "exercise 1 title",
+      "description": "exercise 1 description",
+      "duration": 80
+    },
+    {
+      "id": 2,
+      "title": "exercise 2 title",
+      "description": "exercise 2 description",
+      "duration": 180
+    }
+  ],
+  "usersExercises": [
+    {
+      "userId": 1,
+      "exerciseId": 1
+    },
+    {
+      "userId": 1,
+      "exerciseId": 2
+    }
   ]
 }

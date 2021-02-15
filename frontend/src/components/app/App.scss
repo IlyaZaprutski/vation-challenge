@@ -1,0 +1,36 @@
+.app {
+  display: flex;
+
+  min-height: 100vh;
+
+  background-color: #f1f1f1;
+
+  &__usersListContainer {
+    width: 400px;
+    margin: 25px;
+
+    @media (max-width: 600px) {
+      width: 100%;
+      margin: 0;
+    }
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+  }
+
+  &__spinnerContainer {
+    width: 150px;
+    height: 150px;
+  }
+
+  &__errorMsg {
+    text-transform: capitalize;
+
+    font-size: 26px;
+    font-weight: bold;
+  }
+}
